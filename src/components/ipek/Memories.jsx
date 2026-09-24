@@ -1,8 +1,8 @@
 const memories = [
-  { emoji: '☕', title: 'İlk kahvemiz', text: 'Konuşa konuşa soğuyan kahveler, hiç bitmeyen sohbet.' },
-  { emoji: '🌙', title: 'Gece yürüyüşleri', text: 'Sokaklar boşaldığında elimde elin, kalbimde senin adın.' },
-  { emoji: '🌧️', title: 'O yağmurlu gün', text: 'Şemsiye yoktu ama fark etmedi; sen gülerken ben ıslandım.' },
-  { emoji: '🧸', title: 'Küçük jestlar', text: 'Bana hiç beklenmedik anlarda sarılan o küçük ayıcık.' },
+  { emoji: '🫶', title: 'Kalp burnun', text: 'Burnunla yaptığın o minik kalp var ya… her yaptığında istemsizce gülümsüyorum. Aşırı tatlısın.' },
+  { emoji: '🥪', title: 'Salam labnen', text: 'O meşhur salam labnen… Sen yapınca dünyanın en basit şeyi bile özel geliyor bana.' },
+  { emoji: '😊', title: 'Gülüşün', text: 'Güldüğünde gözlerinin de gülmesi… Sanırım en uzun bakmak istediğim manzaralardan biri sensin.' },
+  { emoji: '🤍', title: 'Sarılmamız', text: 'Sana sarıldığım o an… dünya biraz sessizleşiyor ve sanki olması gereken tek yer orasıymış gibi geliyor.' },
 ];
 
 export default function Memories({ photo }) {
@@ -10,8 +10,8 @@ export default function Memories({ photo }) {
     <section id="anilar" className="memories">
       <div className="shell">
         <div className="memories-head">
-          <p className="eyebrow">Anılarımız</p>
-          <h2>Seninle geçen her an <em>bir hazine.</em></h2>
+          <p className="eyebrow">Sende sevdiğim şeyler</p>
+          <h2>Sende sevdiğim <em>o kadar çok şey var ki…</em></h2>
         </div>
         <div className="memory-grid">
           {memories.map(m => (
